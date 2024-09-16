@@ -8,15 +8,14 @@ export function SoftwareDeveloper() {
     const me = {
     name: "Selenay Açıkgöz",
     role: "Back-End Developer",
-    code: ["JavaScript", "Java", "Sql", "Kotlin", "Python", "Scala"],
+    code: ["Java", "Sql", "C", "Python"],
     knowledge_base: [
       "Software Engineering",
-      "Devops Engineering",
       "Web Programming",
     ],
   };
 const say_hi = (me) => {
-    console.log(`Who'm  I`);
+    console.log(`I graduated from Konya Technical University with a degree in Computer Engineering, and I have been working in backend development for a while, primarily using Java Spring. As a hobby and freelancer, I also develop mobile applications.`);
   };
   say_hi(me);
 
